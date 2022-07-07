@@ -1,0 +1,28 @@
+.parent{
+    background-color: black;
+    width: 1200px;
+    height: 1200px;
+    display: flex;
+}
+.enfant{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    border: 2px red solid;
+    
+}
+.gauche{
+    width: 20%;
+
+}
+.droite{
+    width: 80%;
+
+}
+.petitenfant{
+    background-color: blueviolet;
+    width: 25%;
+    height: 25%;
+    border: 2px black solid;
+
+}

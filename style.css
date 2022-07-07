@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+
+#liseret{   
+    width: 200px;
+    margin-right: 3%;
+    height: 400px; 
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px yellow;
+}
+
+
+h1, p{
+    text-align: center;
+    color: yellow;
+}
+
+img{
+    float: right;
+    border: 2px solid yellow;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 5px 5px 5px yellowgreen;
+} 
+    
+h2{    
+    font-size:x-large;
+    text-decoration: underline; 
+    color: red;
+}
+
+li{
+    color :blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+section{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 7%;
+}
+
+#liseret, #conteneur{
+    display: inline-block;
+    vertical-align: top;
+}
+     
+#conteneur
+{
+    width: 85%;
+}
+
+
+@media all and (max-width: 1024px)
+{
+    #liseret
+    {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+    }
+}
+    
